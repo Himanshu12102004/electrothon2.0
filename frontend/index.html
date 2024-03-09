@@ -7,12 +7,19 @@
 
     <!-- <link rel="stylesheet" href="css/general.css" /> -->
     <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="css/queries.css" /> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header class="header">
       <a href="#">
-        <img src="img/logo.png" alt="HealthPay logo" />
+        <img style="scale: 0.5" src="logo.png" alt="HealthPay logo" />
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -43,39 +50,173 @@
               Navigating the world of medicinal wellness
             </h1>
             <p class="hero-description">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-              qui, voluptates assumenda blanditiis excepturi autem. Eos incidunt
-              magnam quod deleniti cumque veritatis obcaecati praesentium ullam,
-              velit, eum esse, officiis veniam!
+              In today's fast-paced world, where every second counts, the need
+              for efficient healthcare solutions is more critical than ever.
+              Fortunately, technological advancements have paved the way for
+              innovative platforms that bring together medical professionals
+              from diverse fields, fostering collaboration and enhancing patient
+              care. One such platform is our very own, dedicated to connecting
+              doctors seamlessly for the greater good of humanity.
             </p>
             <a href="#" class="btn btn--full margin-right-sm">Lets Talk</a>
             <a href="#" class="btn btn--outline">Buy medicine &darr;</a>
           </div>
           <div class="hero-img-box">
-            <img src="img/hero.png" class="hero-img" alt="" />
+            <img src="hero.png" class="hero-img" alt="" />
           </div>
         </div>
       </section>
+      <section class="section-medicines" id="medicines">
+        <div class="container center-text">
+          <span class="subheading">Medicines</span>
+          <h2 class="heading-secondary">
+            HealthPay AI chooses from 500+ medicines
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="medicines">
+            <img
+              style="scale: 0.5; margin-top: -8rem"
+              src="medicine2.jpg"
+              class="medicines-img"
+              alt="himalaya cough Syrup"
+            />
+            <div style="margin-top: -8rem" class="medicines-content">
+              <div class="medicines-tags">
+                <span class="tag tag--vegetarian">Cough Syrup</span>
+              </div>
 
+              <p class="medicines-title">Koflet</p>
+              <ul class="medicines-attributes">
+                <li class="medicines-attribute">
+                  <ion-icon
+                    class="medicines-icon"
+                    name="medkit-outline"
+                  ></ion-icon>
+                  <span>Relieve coughs, sneezing, and runny noses</span>
+                </li>
+                <li class="medicines-attribute">
+                  <ion-icon
+                    class="medicines-icon"
+                    name="cash-outline"
+                  ></ion-icon>
+                  <span>Price : <strong>₹199</strong></span>
+                </li>
+                <li class="medicines-attribute">
+                  <ion-icon
+                    style="color: #84be52"
+                    class="meal-icon"
+                    name="star-outline"
+                  ></ion-icon
+                  ><span><strong>4.9</strong> rating (576)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="medicines">
+            <img
+              src="medicine1.jpg"
+              class="second-medicine medicines-img"
+              alt="paracetamol"
+            />
+            <div class="medicines-content">
+              <div class="medicines-tags">
+                <span class="tag tag--vegan">painkillers</span>
+              </div>
+
+              <p class="medicines-title">Paracetamol</p>
+              <ul class="medicines-attributes">
+                <li class="medicines-attribute">
+                  <ion-icon
+                    class="medicines-icon"
+                    name="medkit-outline"
+                  ></ion-icon>
+                  <span>Used to treat mild to moderate pain</span>
+                </li>
+                <li class="medicines-attribute">
+                  <ion-icon
+                    class="medicines-icon"
+                    name="cash-outline"
+                  ></ion-icon>
+                  <span>Price : <strong>₹899</strong></span>
+                </li>
+                <li class="medicines-attribute">
+                  <ion-icon
+                    class="medicines-icon"
+                    name="star-outline"
+                  ></ion-icon
+                  ><span><strong>4.8</strong> rating (481)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Medicinal Types:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Covid Essentials</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Cardiac Care</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Ayurvedic</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Diabetes</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Skin Care</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Stomach Care</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Homeopathy</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Treatments</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Surgicals</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container all-medicines">
+          <a href="#" class="link">See all medicines &rarr;</a>
+        </div>
+      </section>
       <section class="section-features" id="features">
         <div class="container grid grid--4-cols">
           <div class="feature">
-            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <ion-icon class="feature-icon" name="chatbox-outline"></ion-icon>
             <p class="feature-title">Chat with us</p>
             <p class="feature-text">Chat with the doctor.</p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <ion-icon class="feature-icon" name="medkit-outline"></ion-icon>
             <p class="feature-title">Buy medicines</p>
             <p class="feature-text">Buy generic medicines.</p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <ion-icon class="feature-icon" name="business-outline"></ion-icon>
             <p class="feature-title">Search for hospitals</p>
             <p class="feature-text">Find the best hospitals near you.</p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <ion-icon class="feature-icon" name="person-outline"></ion-icon>
             <p class="feature-title">Search for doctors</p>
             <p class="feature-text">Find the best doctors near you</p>
           </div>
@@ -86,7 +227,11 @@
       <div class="container grid grid--footer">
         <div class="logo-col">
           <a class="footer-logo" href="#">
-            <img src="img/logo.png" alt="HealthPay logo" />
+            <img
+              style="scale: 0.5; margin-left: -10rem"
+              src="logo.png"
+              alt="HealthPay logo"
+            />
           </a>
           <ul class="social-links">
             <li>
@@ -116,8 +261,8 @@
             <p>Nit Hamirpur</p>
             <p>
               <a class="footer-link" href="tel:7876792838">7876792838</a><br />
-              <a class="footer-link" href="22bme014@nith.ac.in"
-                >22bme014@nith.ac.in</a
+              <a class="footer-link" href="healthpay2024@gmail.com"
+                >healthpay2024@gmail.com</a
               >
             </p>
           </address>
