@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  width: 60rem;
+  height: 60rem;
+  /* background-color: purple; */
+  margin: 5rem auto;
+  padding: 5rem;
+  text-align: center;
+  border: 2px solid #84be52;
+  border-radius: 5%;
+}
+
+.hospital-address {
+  width: 45.2rem;
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+.section-two {
+  margin: 1rem;
+}
+.section-one,
+.section-two {
+  /* background-color: salmon; */
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+input {
+  border: 0.1rem solid black;
+  border-radius: 3rem;
+  padding: 0.8rem 2.4rem;
+}
+h3 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.signup-info p {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+.verification-prompt p {
+  margin-bottom: 2rem;
+}
+button {
+  height: 3rem;
+  width: 30rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 3rem;
+  text-align: center;
+}
+button:hover {
+  background-color: #84be52;
+  color: antiquewhite;
+}
+/* .signup-buttons {
+  display: flex;
+  height: 3rem;
+  width: 37rem;
+  margin: 0.8rem auto;
+  gap: 25px;
+  /* background-color: salmon; */
+
+/* .google-btn {
+  height: 2rem;
+  width: 30rem;
+}
+.email-btn {
+  height: 2rem;
+  width: 30rem;
+} */
+.last-prompt p {
+  margin-top: 20px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+a:active {
+  color: #84be52;
+}
